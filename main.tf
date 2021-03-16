@@ -1,6 +1,6 @@
 module "cdn" {
   source         = "genstackio/website/aws//modules/cdn"
-  version        = "0.1.9"
+  version        = "0.1.10"
   name           = var.name
   origin         = var.origin
   zone           = var.dns_zone
