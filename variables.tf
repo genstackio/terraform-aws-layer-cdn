@@ -16,6 +16,10 @@ variable "apex_redirect" {
   type    = bool
   default = false
 }
+variable "forward_query_string" {
+  type    = bool
+  default = true
+}
 variable "dns_zone" {
   type = string
 }
