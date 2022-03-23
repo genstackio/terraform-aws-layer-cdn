@@ -11,7 +11,7 @@ module "cdn" {
   price_class          = var.price_class
   headers              = var.headers
   keep_host            = var.keep_host
-  forward_headers      = var.forwarded_headers
+  forwarded_headers    = var.forwarded_headers
   default_root         = var.default_root
   index_document       = var.index_document
   error_document       = var.error_document
