@@ -73,6 +73,7 @@ variable "functions" {
     event_type = string
     code = string
   }))
+  default = []
 }
 variable "edge_lambdas" {
   type = list(object({
